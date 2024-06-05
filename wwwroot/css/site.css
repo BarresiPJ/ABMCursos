@@ -1,0 +1,64 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Estilos para el encabezado */
+.navbar {
+    background-color: #E89B3C; /* Fondo gris oscuro */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107; /* Color naranja oscuro */
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    color: #fff; /* Color blanco */
+}
+
+    .nav-link:hover {
+        background-color: #fff; /* Fondo gris medio al pasar el mouse */
+        border-radius: 5px;
+    }
+
+/* Estilos para el cuerpo principal */
+main {
+    background: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #343a40; /* Fondo gris oscuro */
+    color: #fff; /* Color blanco */
+    padding: 20px 0; /* Añadir padding al pie de página */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center; /* Centrar contenido */
+}
